@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>AndrewEhloOrg.TestH</id>
+  <version>3.800.0</version>
+  <version-tag></version-tag>
+
+  <platformVersion>3.917.3</platformVersion>
+  <dependencies>
+    <!--<dependency id="VirtoCommerce.Core" version="3.825.0" />-->
+  </dependencies>
+
+  <title>AndrewEhloOrg TestH</title>
+  <description>AndrewEhloOrg TestH</description>
+
+  <authors>
+    <author>AndrewEhloOrg</author>
+  </authors>
+  <owners>
+    <owner>AndrewEhloOrg</owner>
+  </owners>
+
+  <projectUrl>https://github.com/AndrewEhloOrg/vc-module-test-h</projectUrl>
+  <iconUrl>Modules/$(AndrewEhloOrg.TestH)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>AndrewEhloOrg.TestH.Web.dll</assemblyFile>
+  <moduleType>AndrewEhloOrg.TestH.Web.Module, AndrewEhloOrg.TestH.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2026 AndrewEhloOrg. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>

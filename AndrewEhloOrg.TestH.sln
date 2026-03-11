@@ -1,0 +1,85 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5CFAB81C-1171-4BE7-8F76-1A65A183908B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Web", "src\AndrewEhloOrg.TestH.Web\AndrewEhloOrg.TestH.Web.csproj", "{818583E2-1A7C-416E-822A-DF1DC65A5162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Data", "src\AndrewEhloOrg.TestH.Data\AndrewEhloOrg.TestH.Data.csproj", "{33BCE083-61C7-4330-BF6F-4AA29C29E844}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Core", "src\AndrewEhloOrg.TestH.Core\AndrewEhloOrg.TestH.Core.csproj", "{46AB30DB-040F-4454-9D7B-EC9262F9401F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Data.MySql", "src\AndrewEhloOrg.TestH.Data.MySql\AndrewEhloOrg.TestH.Data.MySql.csproj", "{FC87FE34-1CF7-48D5-B984-F48AF359F436}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Data.PostgreSql", "src\AndrewEhloOrg.TestH.Data.PostgreSql\AndrewEhloOrg.TestH.Data.PostgreSql.csproj", "{2DE5C261-2C11-4BC8-B78F-AD8D317CCAB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Data.SqlServer", "src\AndrewEhloOrg.TestH.Data.SqlServer\AndrewEhloOrg.TestH.Data.SqlServer.csproj", "{2CBABF37-88E9-4900-8191-C8005AFCF303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{027FB6FB-D65C-44CB-8A40-E303CBCA0718}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AndrewEhloOrg.TestH.Tests", "tests\AndrewEhloOrg.TestH.Tests\AndrewEhloOrg.TestH.Tests.csproj", "{3D7DC33A-AF2A-4895-9F44-8AC79B2F0FF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACCBAD61-B21F-4798-BC06-88566EDFBC30}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		LICENSE = LICENSE
+		module.ignore = module.ignore
+		README.md = README.md
+		AndrewEhloOrg.TestH.sln.DotSettings = AndrewEhloOrg.TestH.sln.DotSettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{818583E2-1A7C-416E-822A-DF1DC65A5162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818583E2-1A7C-416E-822A-DF1DC65A5162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818583E2-1A7C-416E-822A-DF1DC65A5162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818583E2-1A7C-416E-822A-DF1DC65A5162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33BCE083-61C7-4330-BF6F-4AA29C29E844}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33BCE083-61C7-4330-BF6F-4AA29C29E844}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33BCE083-61C7-4330-BF6F-4AA29C29E844}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33BCE083-61C7-4330-BF6F-4AA29C29E844}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46AB30DB-040F-4454-9D7B-EC9262F9401F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46AB30DB-040F-4454-9D7B-EC9262F9401F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46AB30DB-040F-4454-9D7B-EC9262F9401F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46AB30DB-040F-4454-9D7B-EC9262F9401F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC87FE34-1CF7-48D5-B984-F48AF359F436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC87FE34-1CF7-48D5-B984-F48AF359F436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC87FE34-1CF7-48D5-B984-F48AF359F436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC87FE34-1CF7-48D5-B984-F48AF359F436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE5C261-2C11-4BC8-B78F-AD8D317CCAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE5C261-2C11-4BC8-B78F-AD8D317CCAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE5C261-2C11-4BC8-B78F-AD8D317CCAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE5C261-2C11-4BC8-B78F-AD8D317CCAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CBABF37-88E9-4900-8191-C8005AFCF303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBABF37-88E9-4900-8191-C8005AFCF303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBABF37-88E9-4900-8191-C8005AFCF303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBABF37-88E9-4900-8191-C8005AFCF303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D7DC33A-AF2A-4895-9F44-8AC79B2F0FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D7DC33A-AF2A-4895-9F44-8AC79B2F0FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D7DC33A-AF2A-4895-9F44-8AC79B2F0FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D7DC33A-AF2A-4895-9F44-8AC79B2F0FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{818583E2-1A7C-416E-822A-DF1DC65A5162} = {5CFAB81C-1171-4BE7-8F76-1A65A183908B}
+		{33BCE083-61C7-4330-BF6F-4AA29C29E844} = {5CFAB81C-1171-4BE7-8F76-1A65A183908B}
+		{46AB30DB-040F-4454-9D7B-EC9262F9401F} = {5CFAB81C-1171-4BE7-8F76-1A65A183908B}
+		{FC87FE34-1CF7-48D5-B984-F48AF359F436} = {5CFAB81C-1171-4BE7-8F76-1A65A183908B}
+		{2DE5C261-2C11-4BC8-B78F-AD8D317CCAB7} = {5CFAB81C-1171-4BE7-8F76-1A65A183908B}
+		{2CBABF37-88E9-4900-8191-C8005AFCF303} = {5CFAB81C-1171-4BE7-8F76-1A65A183908B}
+		{3D7DC33A-AF2A-4895-9F44-8AC79B2F0FF6} = {027FB6FB-D65C-44CB-8A40-E303CBCA0718}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {637E29C3-0862-4689-B1C7-C443998801D7}
+	EndGlobalSection
+EndGlobal

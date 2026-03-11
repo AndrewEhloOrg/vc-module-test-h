@@ -1,0 +1,24 @@
+{
+  "TestH": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade"
+      }
+    }
+  },
+  "permissions": {
+    "test-h:access": "Open TestH menu",
+    "test-h:create": "Create TestH related data",
+    "test-h:read": "View TestH related data",
+    "test-h:update": "Update TestH related data",
+    "test-h:delete": "Delete TestH related data"
+  },
+  "settings": {
+    "TestH": {
+      "Enabled": {
+        "title": "TestH Enabled",
+        "description": "TestH Enabled setting"
+      }
+    }
+  }
+}
